@@ -42,26 +42,29 @@ class Website:
         self.title = soup.title.string if soup.title else "No title found"
         for irrelevant in soup.body(["script", "style", "img", "input"]):
             irrelevant.decompose()
-        self.text = soup.body.get_text(separator="\n", strip=True)
+        self.text = soup.body.get_text(separator="\n", strip=True) if soup.body else ""
 
-# System prompt
-system_prompt = "You are an assistant that analyzes the contents of a website and provides a short summary, ignoring text that might be navigation related."
+# Step 1: Create your prompts
+
+system_prompt = "You are an assistant that analyzes the contents of a website and provides a short summary, focusing on relevant numeric data. Explain the relevant numeric data like people reading is a 5-year-old."
 
 # Function to generate user prompt
 def user_prompt_for(website):
     user_prompt = f"You are looking at a website titled {website.title}"
-    user_prompt += "\nThe contents of this website is as follows; please provide a short summary of this website. If it includes news or announcements, then summarize these too.\n\n"
+    user_prompt += "\nThe contents of this website are as follows; please provide a short summary of this website. If it includes news or announcements, then summarize these too.\n\n"
     user_prompt += website.text
     return user_prompt
 
-# Function to create messages for OpenAI API
+# Step 2: Make the messages list
+
 def messages_for(website):
     return [
         {"role": "system", "content": system_prompt},
         {"role": "user", "content": user_prompt_for(website)}
     ]
 
-# Function to summarize a website
+# Step 3: Call OpenAI
+
 def summarize(url):
     website = Website(url)
     response = openai.chat.completions.create(
@@ -70,11 +73,15 @@ def summarize(url):
     )
     return response.choices[0].message.content
 
-# Example usage
-summary_1 = summarize("https://edwarddonner.com")
-summary_2 = summarize("https://cnn.com")
-summary_3 = summarize("https://anthropic.com")
+# Function to create markdown output
+def generate_markdown(text):
+    markdown_output = f"# Website Summary\n\n{text}\n"
+    return markdown_output
 
-print(summary_1)
-print(summary_2)
-print(summary_3)
+# Step 4: print the result in markdown format
+
+summary_1 = summarize("https://www.bbc.com/news/articles/c86wz0vd1dwo")
+markdown_output = generate_markdown(summary_1)
+
+print(markdown_output)
+
