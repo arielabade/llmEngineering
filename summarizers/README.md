@@ -31,7 +31,7 @@ The website talks about a battle happening in a place called Kursk in Russia. He
 The fighting is still going on, and both sides are trying to claim victories. Ukraine is trying to keep Russian troops away from important areas. There are mentions of surprise attacks and different strategies being used by both sides.
 
 
-2)  **[The project ](https://github.com/arielabade/llmEngineering/blob/main/summarizers/llmsAssistants/00summarizerOpenAI.py)** produces a personal virtual assistant to summarize content and explain it in a scientific tone with "how, what and why?" approaches. These are Ollama and Open AI outputs:
+2)  **[The project with Ollama](https://github.com/arielabade/llmEngineering/blob/main/summarizers/llmsAssistants/01personalAssistantTechConceptsOllama.py)** and **[This project with openAI API](https://github.com/arielabade/llmEngineering/blob/main/summarizers/llmsAssistants/01personalAssistantTechConceptsOpenAI.py)**  produces a personal virtual assistant to summarize content and explain it in a scientific tone with "how, what and why?" approaches. These are Ollama and Open AI outputs:
 
 
 # Ollama Output
@@ -149,3 +149,92 @@ A **vector database** is a type of database optimized for storing, searching, an
 ### Summary:
 
 Vector databases are specialized systems for storing and querying high-dimensional vectors used in AI applications. They emerged due to the limitations of traditional databases in handling structured data representations required in ML tasks. With advanced indexing and optimization techniques, vector databases facilitate efficient retrieval of similar items, making them essential for various applications in recommendation systems, search engines, and natural language processing.
+
+
+3)  **[The project ](https://github.com/arielabade/llmEngineering/blob/main/summarizers/llmsAssistants/02summarizerOllama5YearOld.py)** explains world war 2 to a 5 year old. It has not worked so good because of limiteds capacity of Llama3.2:1b
+
+This was the output:
+
+# Website Analysis Report
+
+## 📊 Analysis Details
+- **URL**: [https://en.wikipedia.org/wiki/World_War_II](https://en.wikipedia.org/wiki/World_War_II)
+- **Title**: World War II - Wikipedia
+- **Analysis Date**: 2025-01-06 17:38:38
+- **Processing Time**: 11.07 seconds
+
+## 📝 Summary
+This appears to be a Wikipedia article about World War II. It's a long and detailed article that covers the major events, battles, and consequences of the war.
+
+To summarize, the article is divided into sections covering:
+
+1. Early signs of war (1939-1940)
+2. European theater (1940-1943)
+3. Pacific theater (1941-1945)
+4. Home front
+5. Final stages of the war
+
+The article also mentions various countries and groups involved in the war, including Germany, Italy, Japan, the United States, Great Britain, France, and China.
+
+Would you like me to provide more information on a specific topic or aspect of World War II?
+
+4) **[The project ](https://github.com/arielabade/llmEngineering/blob/main/summarizers/llmsAssistants/03vellumBrochureGenerator.py)** eaims to create a brochure for vellum.ai so that people can convinces theirself to use de platform. It was a good commercial use o Gpt-4o-mini, which was the model utulized, and this was the output:
+
+
+ Welcome to Vellum AI
+
+## Transforming AI Development
+
+At **Vellum AI**, we empower organizations to build and ship AI products efficiently on a single collaborative platform. Our innovative tooling enables teams to experiment, evaluate, deploy, monitor, and collaborate seamlessly, driving rapid outcomes in AI development.
+
+---
+
+## Our Solution
+
+- **Interactive Workflows**: Create advanced AI systems through our intuitive Workflows IDE.
+- **Four Pillars of AI Development**:
+  - **Experimentation**: Rapidly iterate and test AI models and architectures.
+  - **Evaluation**: Utilize test-driven development to optimize quality and cost.
+  - **Deployment**: Fine-grained release management with detailed logs and user feedback.
+  - **Monitoring**: Maintain quality in production and quickly debug issues.
+
+---
+
+## Company Culture
+
+At Vellum, we foster a culture of **innovation**, **collaboration**, and **excellence**. Our team is comprised of AI developers committed to simplifying the complexities of AI systems. We believe in empowering every team member to drive creativity and excellence, helping to expedite project timelines while maintaining high standards of quality.
+
+---
+
+## Trusted by Leading Teams
+
+Join a growing list of satisfied clients who have transformed their AI processes, including teams at **Drata**, **Woflow**, and **Redfin**. Our platform has accelerated AI development timelines by up to 50%, enabling teams to focus on crucial innovations.
+
+- **Pratik Bhat, Sr. Product Engineer @ Drata**: "Vellum made it so much easier to quickly validate AI ideas and focus on the ones that matter most."
+- **Jordan Nemrow, Co-Founder & CTO @ Woflow**: "We sped up AI development by 50 percent and decoupled updates from releases with Vellum."
+- **Sebi Lozano, Sr. Product Manager @ Redfin**: "Vellum helped us quickly evaluate prompt designs and workflows, saving us hours of development."
+
+---
+
+## Careers at Vellum
+
+Vellum offers a dynamic work environment with opportunities for personal and professional growth. We are seeking innovative thinkers who are eager to contribute to the future of AI development. With roles ranging from software engineers to product managers, Vellum is dedicated to building a diverse team that thrives on collaboration and creativity.
+
+---
+
+## Join Us
+
+- **Book a Demo**: Experience our platform and see how we can elevate your AI development practices.
+- **Participate in Our Survey**: Share your insights and you could win a MacBook M4 Pro!
+
+### Explore More: 
+- [Case Studies](#)
+- [Resource Guides](#)
+- [Product Updates](#)
+
+---
+
+At **Vellum AI**, we are your partners in achieving AI excellence, from concept to production. Let us help you turn your AI dreams into reality!
+
+---
+```
