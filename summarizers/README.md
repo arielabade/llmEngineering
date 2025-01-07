@@ -16,7 +16,7 @@ The summarizer projects leverage:
 ### 1. [Simplifying for a 5-Year-Old](https://github.com/arielabade/llmEngineering/blob/main/summarizers/llmsAssistants/00summarizerOpenAI.py)  
 - **Objective**: Summarize and explain complex information in an accessible way.  
 - **Model Used**: OpenAI API.  
-- **- **[Output](https://github.com/arielabade/llmEngineering/blob/main/summarizers/outputs/output00.md)****:  
+- **[Output](https://github.com/arielabade/llmEngineering/blob/main/summarizers/outputs/output00.md)****:  
   Example summary with data about a conflict in Ukraine:  
   - **38,000 soldiers** lost (according to Ukraine).  
   - Ukrainian troops advanced **18 miles** into Russian territory.  
