@@ -13,7 +13,7 @@ The summarizer projects leverage:
 
 ## Projects  
 
-### 1. [Simplifying for a 5-Year-Old](https://github.com/arielabade/llmEngineering/blob/main/summarizers/llmsAssistants/00summarizerOpenAI.py)  
+### 1. [Simplifying for a 5-Year-Old](https://github.com/arielabade/llmEngineering/blob/main/summarizers/outputs/output0.md)  
 - **Objective**: Summarize and explain complex information in an accessible way.  
 - **Model Used**: OpenAI API.  
 - **Output**:  
@@ -24,7 +24,7 @@ The summarizer projects leverage:
 
 ---
 
-### 2. [Scientific Personal Assistant](https://github.com/arielabade/llmEngineering/blob/main/summarizers/llmsAssistants/01personalAssistantTechConceptsOpenAI.py) and [Version with Ollama](https://github.com/arielabade/llmEngineering/blob/main/summarizers/llmsAssistants/01personalAssistantTechConceptsOllama.py)  
+### 2. [Scientific Personal Assistant](https://github.com/arielabade/llmEngineering/blob/main/summarizers/outputs/output01.md)  
 - **Objective**: Explain technical concepts in a scientific tone using questions like "how," "what," and "why."  
 - **Models Used**: Ollama and OpenAI API.  
 - **Example - Concept of Vector Databases**:  
@@ -37,17 +37,17 @@ The summarizer projects leverage:
 ### 3. [Explaining World War II](https://github.com/arielabade/llmEngineering/blob/main/summarizers/llmsAssistants/02summarizerOllama5YearOld.py)  
 - **Objective**: Explain World War II to a 5-year-old.  
 - **Model Used**: Ollama (Llama 3.2:1b).  
-- **Output**:  
+- **[Output](https://github.com/arielabade/llmEngineering/blob/main/summarizers/outputs/output02.md)**:  
   - **General Summary**: Wikipedia article divided into key events, including the European and Pacific theaters and the consequences of the war.  
   - **Limitations**: The model struggled to generate clear explanations due to its limited capabilities.  
 
-[Output Link](https://github.com/arielabade/llmEngineering/blob/main/summarizers/llmsAssistants/02summarizerOllama5YearOld.py)
+
 ---
 
 ### 4. [Vellum Brochure Generator](https://github.com/arielabade/llmEngineering/blob/main/summarizers/llmsAssistants/03vellumBrochureGenerator.py)  
 - **Objective**: Create a promotional brochure for the **Vellum AI** platform.  
 - **Model Used**: GPT-4o-mini.  
-- **Output**:  
+- **[Output](https://github.com/arielabade/llmEngineering/blob/main/summarizers/outputs/output03.md)**:  
   A successful commercial brochure highlighting:  
   - **Solutions**: Interactive workflows, experimentation, and AI monitoring.  
   - **Testimonials**: Satisfied clients like Drata, Woflow, and Redfin.  
