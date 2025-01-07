@@ -13,10 +13,10 @@ The summarizer projects leverage:
 
 ## Projects  
 
-### 1. [Simplifying for a 5-Year-Old](https://github.com/arielabade/llmEngineering/blob/main/summarizers/outputs/output0.md)  
+### 1. [Simplifying for a 5-Year-Old](https://github.com/arielabade/llmEngineering/blob/main/summarizers/llmsAssistants/00summarizerOpenAI.py)  
 - **Objective**: Summarize and explain complex information in an accessible way.  
 - **Model Used**: OpenAI API.  
-- **Output**:  
+- **- **[Output](https://github.com/arielabade/llmEngineering/blob/main/summarizers/outputs/output00.md)****:  
   Example summary with data about a conflict in Ukraine:  
   - **38,000 soldiers** lost (according to Ukraine).  
   - Ukrainian troops advanced **18 miles** into Russian territory.  
@@ -24,7 +24,7 @@ The summarizer projects leverage:
 
 ---
 
-### 2. [Scientific Personal Assistant](https://github.com/arielabade/llmEngineering/blob/main/summarizers/outputs/output01.md)  
+### 2. [Scientific Personal Assistant](https://github.com/arielabade/llmEngineering/blob/main/summarizers/llmsAssistants/01personalAssistantTechConceptsOpenAI.py) and [Version with Ollama](https://github.com/arielabade/llmEngineering/blob/main/summarizers/llmsAssistants/01personalAssistantTechConceptsOllama.py)  
 - **Objective**: Explain technical concepts in a scientific tone using questions like "how," "what," and "why."  
 - **Models Used**: Ollama and OpenAI API.  
 - **Example - Concept of Vector Databases**:  
@@ -32,6 +32,7 @@ The summarizer projects leverage:
   - **How was it created?** Evolved from AI needs, utilizing indexing techniques like FAISS and HNSW.  
   - **Applications**: Similarity search, recommendation systems, and natural language processing.  
 
+- **[Output](https://github.com/arielabade/llmEngineering/blob/main/summarizers/outputs/output01.md)**
 ---
 
 ### 3. [Explaining World War II](https://github.com/arielabade/llmEngineering/blob/main/summarizers/llmsAssistants/02summarizerOllama5YearOld.py)  
