@@ -3,7 +3,7 @@
 This application is built to dynamically generate professional brochures using the Gradio framework and OpenAI's ChatCompletion API. Users can input a website URL and additional requirements, and the tool will stream markdown-formatted brochure content in real time.
 
 
-![Exemplo de Imagem](https://example.com/imagem.png)
+![Image1](https://github.com/arielabade/llmEngineering/blob/main/gradioUserInterface/initialUI.png)
 
 ## Functionality Description
 
