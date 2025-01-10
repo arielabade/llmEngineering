@@ -52,4 +52,4 @@ This application is built to dynamically generate professional brochures using t
    pip install -r requirements.txt
 
 
-![Results](https://example.com/imagem.png)
+![Image2](https://github.com/arielabade/llmEngineering/blob/main/gradioUserInterface/udemyBrochure.png)
