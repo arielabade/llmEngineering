@@ -15,3 +15,16 @@ This repository is a project focused on the development of assistants based on L
 - **LLM X** ([link to the folder's code]): This language model aims to **[description of what the LLM does]**. The output produced by it is as follows:
   
   - **[example output or description of the type of output generated]**
+
+
+
+## Pending Projects | To-do list
+
+
+- [ ] Create projects on hugging face spaces
+- [ ] Create a live project that is hosted on github pages/other server
+- [ ] Learn how docker works with llms
+- [ ] Learn how AWS works with LLMS
+- [ ] Learn more about langchain
+- [ ] Learn more about python code frameworks (django, etc)
+- [ ] Learn how pinecone based applicaton works
