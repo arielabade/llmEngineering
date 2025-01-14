@@ -28,3 +28,7 @@ This repository is a project focused on the development of assistants based on L
 - [ ] Learn more about langchain
 - [ ] Learn more about python code frameworks (django, etc)
 - [ ] Learn how pinecone based applicaton works
+- [ ] Create a model
+- [ ] Create a collection
+- [ ] Create a space
+
